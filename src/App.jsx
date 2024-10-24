@@ -7,7 +7,7 @@ import './App.css'
 import Home from './Components/Home/Home'
 import Datails from './Components/Datails/Datails'
 import NotFound from './Components/NotFound/NotFound'
-import { reateHashRouter, RouterProvider } from 'react-router-dom'
+import { createHashRouter, RouterProvider } from 'react-router-dom'
 import Layout from './Components/Layout/Layout'
  let route= createHashRouter([
   {
