@@ -23,7 +23,7 @@ import Layout from './Components/Layout/Layout'
 
 function App() {
 
-  return <RouterProvider router={route}>
+  return <RouterProvider router={route} basename="/taskDebo/">
 
 
   </RouterProvider>
